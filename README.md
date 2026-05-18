@@ -123,7 +123,8 @@ En esta pantalla se solicita iniciar sesión con una cuenta de Microsoft.
 Ya que no es un equipo personal, se debe utilizar la combinación **Shift + F10** para abrir **cmd** y escribir:
 
 ```cmd
-start ms-cxh:localonly
+start ms-cxh:localonly 
+
 # 3.4 Configuración de red
 
 Se ha realizado la configuración de red, permitiendo así su conexión a Internet y a la red local de la empresa.
@@ -270,7 +271,3 @@ Se han instalado aplicaciones básicas como navegador web, herramientas de ofim�
 
 - Cada trabajador con su propia cuenta  
 - Evitar usar cuentas de administrador para todo, reduciendo problemas y equivocaciones  
-## Control de usuarios
-
-- Cada trabajador con su cuenta  
-- Evitar usar cuentas de administrador para todo para evitar problemas o equivocaciones
