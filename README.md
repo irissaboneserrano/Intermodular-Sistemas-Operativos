@@ -124,27 +124,31 @@ Ya que no es un equipo personal, se debe utilizar la combinación **Shift + F10*
 
 ```cmd
 start ms-cxh:localonly
-## 3.4 Configuración de red
+# 3.4 Configuración de red
 
-Se ha realizado la configuración de red, permitiendo así su conexión a Internet y la red local de la empresa.
+Se ha realizado la configuración de red, permitiendo así su conexión a Internet y a la red local de la empresa.
 
-Para ello, se ha asignado una dirección IP al equipo, junto con la máscara de subred y puerta de enlace.
+Para ello, se ha asignado una dirección IP al equipo, junto con la máscara de subred y la puerta de enlace.
 
-Ruta de configuración:
+**Ruta de configuración:**
 
-**Configuración → Red e Internet → Configuración de red avanzada → Ethernet**
+Configuración → Red e Internet → Configuración de red avanzada → Ethernet
 
-En **Más opciones del adaptador**, se selecciona **IPv4** y se asigna la dirección correspondiente.
+En **Más opciones del adaptador**, se selecciona **IPv4** y se asigna la siguiente dirección:
 
-Para comprobar que todo está correctamente establecido, se abre **cmd** y se ejecuta el comando correspondiente.
+*(Insertar imagen de configuración IPv4)*
 
----
+Para comprobar que todo está correctamente establecido, se abre **cmd** y se ejecuta el siguiente comando:
+
+*(Insertar imagen o comando de comprobación)*
 
 # 4. Gestión de usuarios
 
 Se han creado distintos usuarios con diferentes funciones dentro de la empresa.
 
 Los usuarios estándar tienen permisos limitados para garantizar la seguridad, mientras que el administrador puede realizar tareas de configuración y mantenimiento del sistema.
+
+*(Insertar imagen de usuarios)*
 
 ## 1. Administrador
 
@@ -167,16 +171,16 @@ Los usuarios estándar tienen permisos limitados para garantizar la seguridad, m
 
 ## 5. Técnico
 
-También debe ser administrador porque:
+También debe ser administrador, ¿por qué?
 
 - Puede instalar software  
-- Puede solucionar problemas  
+- Solucionar problemas  
 
-### 4.1 Configurar lo necesario
+## 4.1 Configurar lo necesario
 
 Se han asignado contraseñas a todos los usuarios, asegurando que sean seguras.
 
-Además, se recomienda cambiar las contraseñas periódicamente y evitar el uso de contraseñas simples.
+Además, se recomienda cambiarlas periódicamente y evitar el uso de contraseñas simples.
 
 Para ello, cada usuario debe ir a:
 
@@ -184,11 +188,13 @@ Para ello, cada usuario debe ir a:
 
 Y ahí establecer una contraseña para iniciar sesión.
 
-Por último, en cuanto a los permisos de cada usuario, se puede ver qué tipo de cuenta es cada una yendo a:
+*(Insertar imágenes del proceso)*
+
+Por último, en cuanto a los permisos de cada usuario, es tal y como se ha mencionado anteriormente. Se puede ver qué tipo de cuenta es cada una yendo a:
 
 **Configuración → Cuentas → Otros usuarios**
 
----
+*(Insertar imágenes de tipos de cuenta)*
 
 # 5. Instalación de software necesario
 
@@ -202,7 +208,9 @@ Se han instalado aplicaciones básicas como navegador web, herramientas de ofim�
 
 ## Suite ofimática → Microsoft Office
 
-- Para crear documentos, hojas de cálculo y presentaciones  
+- Crear documentos  
+- Hojas de cálculo  
+- Presentaciones  
 
 ## Software de diseño → Adobe Creative Cloud
 
@@ -210,13 +218,13 @@ Se han instalado aplicaciones básicas como navegador web, herramientas de ofim�
 - Diseño vectorial (logos e ilustraciones)  
 - Maquetación (revistas y carteles)  
 
+*(Insertar imágenes del software instalado)*
+
 ## Software de gestión → Holded
 
 - Gestión de facturas y clientes  
 - Control de ingresos y gastos  
 - Organización de la empresa  
-
----
 
 # 6. Medidas básicas de seguridad
 
@@ -237,11 +245,15 @@ Se han instalado aplicaciones básicas como navegador web, herramientas de ofim�
 
 - Activar el firewall de Windows Defender Firewall  
 
+*(Insertar imagen del firewall)*
+
 ## Antivirus
 
 - Usar Microsoft Defender (incluido en Windows 11)  
 - Mantenerlo actualizado  
 - Realizar análisis periódicos  
+
+*(Insertar imágenes del antivirus)*
 
 ## Copias de seguridad
 
@@ -254,6 +266,10 @@ Se han instalado aplicaciones básicas como navegador web, herramientas de ofim�
 - Descargar solo desde páginas oficiales  
 - Evitar enlaces desconocidos  
 
+## Control de usuarios
+
+- Cada trabajador con su propia cuenta  
+- Evitar usar cuentas de administrador para todo, reduciendo problemas y equivocaciones  
 ## Control de usuarios
 
 - Cada trabajador con su cuenta  
